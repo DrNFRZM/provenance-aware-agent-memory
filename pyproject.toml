@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "provenance-aware-agent-memory"
+version = "0.1.0"
+description = "An empirical exploration of provenance-aware memory for LLM agents in multi-agent systems."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Farzam Nikbakhsh Jorshari", email = "nikbakhshfarzam@gmail.com" }]
+dependencies = ["numpy>=1.26", "pandas>=2.0", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+embeddings = ["sentence-transformers>=2.7"]
+
+[project.scripts]
+provmem = "provmem.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+addopts = "-q"

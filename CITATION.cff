@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Provenance-Aware Memory for Robust LLM Agents: an empirical exploration"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Nikbakhsh Jorshari
+    given-names: Farzam
+    email: nikbakhshfarzam@gmail.com

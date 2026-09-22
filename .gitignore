@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+
+# model weights and caches are never committed
+models/
+.cache/
+huggingface/
+*.gguf
+*.safetensors
+*.bin
+
+# local scratch output; committed benchmark output lives in results/quick/
+results/local/
+*.zip
+
+# editor and operating-system metadata
+.DS_Store
+Thumbs.db
+*.swp
