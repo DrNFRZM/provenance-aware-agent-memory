@@ -1,10 +1,9 @@
 # provenance-aware-agent-memory
 
-**An empirical exploration of provenance-aware agent memory.** When an agent stores and relays
-claims from other agents, does recording *where a claim came from* and *how it got here* make
-the memory safer? This repository is a small, deterministic multi-agent simulation for asking
-that question with synthetic, harmless misinformation, plus the tests, docs and results that
-go with it.
+When agents store and relay claims, does knowing where a claim came from help them reject
+false information? This project compares retrieval, verification, and quarantine policies
+in a deterministic simulation with invented facts. All reported results use a mock reader,
+not a real LLM.
 
 It is a research testbed, not a library to drop into an agent framework, and not a claim of
 a new method. Provenance tracking, trust scoring and quarantine are established ideas. What
@@ -32,6 +31,9 @@ this repo adds is a reproducible place to see where they help, where they do not
   OpenAI-compatible server exists and is never required. No secrets, no downloads.
 
 ## Quick start
+
+The [reproduction check](docs/reproducibility.md) records the tested environment
+and the comparison with the committed simulation results.
 
 ```bash
 pip install -e ".[dev]"          # numpy, pandas, matplotlib, pytest

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "provenance-aware-agent-memory"
 version = "0.1.0"
-description = "An empirical exploration of provenance-aware memory for LLM agents in multi-agent systems."
+description = "Simulation comparing provenance, verification, and quarantine policies for agent memory."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

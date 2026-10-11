@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
-title: "Provenance-Aware Memory for Robust LLM Agents: an empirical exploration"
+title: "Provenance-aware agent memory: retrieval and verification policies in a simulation"
 type: software
 version: 0.1.0
 license: MIT
