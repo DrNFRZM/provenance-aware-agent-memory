@@ -159,3 +159,7 @@ tests use seeds below 1000; reported results use 1000 and above.
 ## Author and license
 
 Farzam Nikbakhsh Jorshari (nikbakhshfarzam@gmail.com). MIT license.
+
+This is an independently developed personal project. See [development and
+attribution](docs/development.md) for the distinction between the original
+implementation and the November 2026 AI-assisted maintenance work.
